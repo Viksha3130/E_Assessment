@@ -1,0 +1,61 @@
+
+/**************Navbar ******************/
+.navbar, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    z-index: 1;
+    width: 100%;
+    color:var(--light-color);
+    background-color: #1D3557;
+    margin-bottom: 1rem;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#ffffff;
+  }
+  .logo p {
+    font-size: 0.9rem;
+    margin-top:0.5rem;
+    color:#ccc
+  }
+  .logo span {
+    color: rgb(255, 57, 22)
+  }
+  .navbar ul {
+    display: flex;
+    color:#ffffff;
+   }
+   .navbar i, h1 {
+    padding: 0 1rem
+    
+  }
+  li{
+   
+    list-style: none;
+    padding: 0 1rem;
+    transition: all 0.3s ease 0s;
+    color: #ffffff;
+    font-size:20px;
+ 
+  }
+  a{
+    text-decoration: none;
+    
+  }
+  li i:hover ,a:hover{
+    opacity: 0.5;  
+    cursor: pointer;
+    color: #F1FAEE;
+  }
+ .lkbtn {
+   color:#ffffff;
+    background-color: #1D3557 ;
+  }
+  .logout{
+    color:#ffffff;
+  }
+  

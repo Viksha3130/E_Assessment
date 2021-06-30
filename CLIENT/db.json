@@ -1,0 +1,29 @@
+{
+  "Registereduser": [
+    {
+      "id": {
+        "$oid": "5f4b574e1e98a72c84c188e4"
+      },
+      "username": "Viksha",
+      "email": "vikshaiyer@gmail.com",
+      "password": "$2b$10$Tmimun6lBE4oClWseui3gO3XUxj6Kt/Gs2Ox1pYkXA4VrRD93KMoy",
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "username": "test",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "password2": "123456",
+      "id": "dPFcQW7"
+    },
+    {
+      "username": "xyz",
+      "email": "xyz@gmail.com",
+      "password": "123456",
+      "password2": "123456",
+      "id": "pKhymEQ"
+    }
+  ]
+}

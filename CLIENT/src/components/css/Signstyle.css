@@ -1,0 +1,240 @@
+.authbox{
+    width: 1000px;
+    overflow: hidden;
+    margin: 80px auto 30px;
+  }
+  .leftbox{
+    width:300px;
+    height:500px;
+    float:left;
+    position: relative;
+    display: block;
+  }
+  .bgblue{
+    width:150%;
+    height:100%;
+    background-color:#1D3557;
+    border-top-left-radius: 90px; 
+  }
+  .lnkbtn{
+    border:0;
+    color:#006cbc;
+    background-color: #ffffff;
+  }
+  .imageAuth{
+    
+    height:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 90px;
+    opacity: 0.5;
+    position: absolute;
+    top:0;
+    left:0;
+    width:150%;
+  }
+  .imageText{
+    font-size: 28px;
+    position: absolute;
+    color:#ffffff;
+  }
+  .imageText.bold{
+    font-weight: bold;
+  }
+  .imageText.style1{
+     top:50px;
+     left:50px;
+     
+  }
+  
+  
+  .rightbox{
+    width:600px;
+    height:500px;
+    float:right;
+    border:1px solid #1D3557;;
+  }
+  .box{
+    width:300px;
+    height:400px;
+    margin:50px auto;
+  }
+  .titleAuth{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color:#E63946;
+  }
+  .inputSBox{
+    width:300px;
+    height:30px;
+    border-bottom: 2px solid #d8d8d8;
+    margin-bottom: 20px;
+  }
+  .inputS{
+    width:100%;
+    height:98%;
+    font-size:14px;
+    color:#37353f;
+    text-indent:10px;
+    border:0;
+    outline:none;
+  }
+  .contentBox{
+    overflow:hidden;
+    height:50px;
+    margin-top:30px;
+  }
+  .text1{
+      margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    color:#006cbc;
+    cursor: pointer;
+  
+  }
+  .btnAuth{
+    width:300px;
+    height:47px;
+    color:#ffffff;
+    background-color: #E63946;
+    text-align: center;
+    line-height: 47px;
+    border-radius: 4px;
+    cursor:pointer;
+    border: #E63946;
+  }
+  .borderBox{
+    width:300px;
+    height:50px;
+    position: relative;
+    margin:1px 0;
+  }
+  .line{
+    border-bottom: 2px solid #d8d8d8;
+    position: absolute;
+   height:30px;
+    width:100%;
+  }
+  .text2{
+    font-size:14px;
+    color:#818487;
+  }
+  .text2.or{
+    position: absolute;
+    top:48px;
+    left:140px;
+    width:25px;
+    height:16px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .socialMediaBox{
+    overflow: hidden;
+    width: 300px;
+    height: 90px;
+    margin: 0 auto;
+    text-align:center;
+    font-weight: 300px;
+    color: #818487;
+    font-size: 15px;
+  }
+  .slide{
+    width:100%;
+    height:100%;
+  }
+  .carousel.carousel-slider{
+    width:100%;
+    height:100%;
+    border-top-left-radius:90px;
+  
+  }
+  .carousel .slider-wrapper{
+    height:100%;
+    border-top-left-radius:90px;
+    width:100%;
+  }
+  .carousel .slider.animated{
+    height:100%;
+    border-top-left-radius:90px;
+  }
+  .carousel .slider.animated{
+    border-top-left-radius:90px ;
+    border-top-right-radius:90px ;
+  }
+  .carousel .slider-wrapper.axis-horizontal .slider{
+    border-top-left-radius:90px ;
+  }
+  .carousel .slider-wrapper.axis-horizontal .slider .slide{
+    border-top-left-radius:90px ;
+  }
+  .carousel .slide img{
+    height:100%;
+    border-top-left-radius:90px ;
+    opacity:2.0;;
+  }
+  .icAuth{
+    width:41px;
+    height: 45px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-right: 30px;
+    cursor: pointer;
+  position: absolute;
+  margin-left: 30px;
+ 
+ 
+  }
+  .icAUth.facebook{
+    float:left;
+  }
+  
+  .signin{
+    margin-top:10px;
+    padding:3px;
+    text-align: center;
+    color: #818487;
+  }
+  .icAUth.google{
+    float:left;
+  }
+  .legend{
+    color: #ffffff;
+    font-size: 50px;
+   
+  }
+  
+  @media screen and (max-width: 768px){
+    .authbox{
+      width:100%;
+    }
+    .leftbox{
+      display:none;
+    }
+    .rightbox{
+      width:100%;
+      float:initial;
+      border:0;
+    }
+  }
+   .danger {
+    background-color: #FCE6F2;
+    width: 100%;
+    margin-bottom: 0.1rem;
+    margin-top:0rem;
+   
+    padding:0.2rem;
+    cursor:initial;
+   border: none;
+    color:#905A49;
+    font:inherit
+    
+    }
+  .danger span {
+    float: right;
+    cursor: pointer;
+  }
